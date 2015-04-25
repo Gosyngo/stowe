@@ -15,6 +15,7 @@
 		8881899B1AEA0CA400FC8643 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8881899A1AEA0CA400FC8643 /* Images.xcassets */; };
 		8881899E1AEA0CA400FC8643 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8881899C1AEA0CA400FC8643 /* LaunchScreen.xib */; };
 		888189AA1AEA0CA400FC8643 /* GoSynGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888189A91AEA0CA400FC8643 /* GoSynGoTests.m */; };
+		888189BA1AEB34F800FC8643 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888189B91AEB34F800FC8643 /* LogInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		888189A31AEA0CA400FC8643 /* GoSynGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoSynGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		888189A81AEA0CA400FC8643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		888189A91AEA0CA400FC8643 /* GoSynGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoSynGoTests.m; sourceTree = "<group>"; };
+		888189B81AEB34F800FC8643 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		888189B91AEB34F800FC8643 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				8881899A1AEA0CA400FC8643 /* Images.xcassets */,
 				8881899C1AEA0CA400FC8643 /* LaunchScreen.xib */,
 				8881898A1AEA0CA400FC8643 /* Supporting Files */,
+				888189B81AEB34F800FC8643 /* LogInViewController.h */,
+				888189B91AEB34F800FC8643 /* LogInViewController.m */,
 			);
 			path = GoSynGo;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			files = (
 				888189961AEA0CA400FC8643 /* SecondViewController.m in Sources */,
 				888189901AEA0CA400FC8643 /* AppDelegate.m in Sources */,
+				888189BA1AEB34F800FC8643 /* LogInViewController.m in Sources */,
 				888189931AEA0CA400FC8643 /* FirstViewController.m in Sources */,
 				8881898D1AEA0CA400FC8643 /* main.m in Sources */,
 			);
@@ -422,6 +428,7 @@
 				888189AF1AEA0CA400FC8643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		888189B01AEA0CA400FC8643 /* Build configuration list for PBXNativeTarget "GoSynGoTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				888189B21AEA0CA400FC8643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
