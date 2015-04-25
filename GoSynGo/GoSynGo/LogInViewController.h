@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainViewController.h"
 
 @interface LogInViewController : UIViewController
+
+@property (nonatomic) IBOutlet UITextField* emailTextField;
+@property (nonatomic) IBOutlet UITextField* passwordTextField;
 
 @end

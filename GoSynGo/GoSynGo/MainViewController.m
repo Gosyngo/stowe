@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  MainViewController.m
 //  GoSynGo
 //
 //  Created by Intersil on 4/24/15.
 //  Copyright (c) 2015 Pineapple. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "MainViewController.h"
 
-@interface FirstViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

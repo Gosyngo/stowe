@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MainViewController.h
 //  GoSynGo
 //
 //  Created by Intersil on 4/24/15.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface MainViewController : UIViewController
 
+@property NSString *email;
+@property NSString *password;
 
 @end
 

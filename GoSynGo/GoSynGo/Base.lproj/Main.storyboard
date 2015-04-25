@@ -7,7 +7,7 @@
         <!--First-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -84,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
-        <!--View Controller-->
+        <!--Log In View Controller-->
         <scene sceneID="2pC-9o-dUs">
             <objects>
-                <viewController id="G5E-Y4-IPW" sceneMemberID="viewController">
+                <viewController id="G5E-Y4-IPW" customClass="LogInViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fRb-YY-Qah"/>
                         <viewControllerLayoutGuide type="bottom" id="caI-PP-YLs"/>
@@ -118,6 +118,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="2sk-bC-yuo" id="hjt-pX-uAh"/>
+                        <outlet property="passwordTextField" destination="bi7-au-aB5" id="bAv-pR-iw1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KYR-Gc-rxn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
