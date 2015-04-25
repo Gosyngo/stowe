@@ -16,6 +16,8 @@
 		8881899E1AEA0CA400FC8643 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8881899C1AEA0CA400FC8643 /* LaunchScreen.xib */; };
 		888189AA1AEA0CA400FC8643 /* GoSynGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888189A91AEA0CA400FC8643 /* GoSynGoTests.m */; };
 		888189BA1AEB34F800FC8643 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888189B91AEB34F800FC8643 /* LogInViewController.m */; };
+		DCA4B6B81AEC2E080002F8E1 /* HomeIconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4B6B61AEC2E080002F8E1 /* HomeIconImage.png */; };
+		DCA4B6B91AEC2E080002F8E1 /* HomeIconImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4B6B71AEC2E080002F8E1 /* HomeIconImage@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		888189A91AEA0CA400FC8643 /* GoSynGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoSynGoTests.m; sourceTree = "<group>"; };
 		888189B81AEB34F800FC8643 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		888189B91AEB34F800FC8643 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		DCA4B6B61AEC2E080002F8E1 /* HomeIconImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HomeIconImage.png; path = Imgaes/HomeIconImage.png; sourceTree = "<group>"; };
+		DCA4B6B71AEC2E080002F8E1 /* HomeIconImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HomeIconImage@2x.png"; path = "Imgaes/HomeIconImage@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DCA4B6B01AEC2B310002F8E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4B6B11AEC2B3A0002F8E1 /* Tab Bar Items */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DCA4B6B11AEC2B3A0002F8E1 /* Tab Bar Items */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4B6B61AEC2E080002F8E1 /* HomeIconImage.png */,
+				DCA4B6B71AEC2E080002F8E1 /* HomeIconImage@2x.png */,
+			);
+			name = "Tab Bar Items";
+			sourceTree = "<group>";
+		};
 		DCBEDBED1AEB4B070060FA55 /* App Launch */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +177,7 @@
 		DCBEDBF11AEB4E930060FA55 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				DCA4B6B01AEC2B310002F8E1 /* Images */,
 				888189971AEA0CA400FC8643 /* Main.storyboard */,
 			);
 			name = UI;
@@ -242,8 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				888189991AEA0CA400FC8643 /* Main.storyboard in Resources */,
+				DCA4B6B81AEC2E080002F8E1 /* HomeIconImage.png in Resources */,
 				8881899E1AEA0CA400FC8643 /* LaunchScreen.xib in Resources */,
 				8881899B1AEA0CA400FC8643 /* Images.xcassets in Resources */,
+				DCA4B6B91AEC2E080002F8E1 /* HomeIconImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
