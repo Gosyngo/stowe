@@ -87,18 +87,11 @@
 		888189891AEA0CA400FC8643 /* GoSynGo */ = {
 			isa = PBXGroup;
 			children = (
-				8881898E1AEA0CA400FC8643 /* AppDelegate.h */,
-				8881898F1AEA0CA400FC8643 /* AppDelegate.m */,
-				888189911AEA0CA400FC8643 /* MainViewController.h */,
-				888189921AEA0CA400FC8643 /* MainViewController.m */,
-				888189941AEA0CA400FC8643 /* SecondViewController.h */,
-				888189951AEA0CA400FC8643 /* SecondViewController.m */,
-				888189971AEA0CA400FC8643 /* Main.storyboard */,
-				8881899A1AEA0CA400FC8643 /* Images.xcassets */,
-				8881899C1AEA0CA400FC8643 /* LaunchScreen.xib */,
+				DCBEDBED1AEB4B070060FA55 /* App Launch */,
+				DCBEDBEE1AEB4B2D0060FA55 /* Main */,
+				DCBEDBEF1AEB4D640060FA55 /* Log In */,
+				DCBEDBF11AEB4E930060FA55 /* UI */,
 				8881898A1AEA0CA400FC8643 /* Supporting Files */,
-				888189B81AEB34F800FC8643 /* LogInViewController.h */,
-				888189B91AEB34F800FC8643 /* LogInViewController.m */,
 			);
 			path = GoSynGo;
 			sourceTree = "<group>";
@@ -106,6 +99,7 @@
 		8881898A1AEA0CA400FC8643 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8881899A1AEA0CA400FC8643 /* Images.xcassets */,
 				8881898B1AEA0CA400FC8643 /* Info.plist */,
 				8881898C1AEA0CA400FC8643 /* main.m */,
 			);
@@ -127,6 +121,44 @@
 				888189A81AEA0CA400FC8643 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCBEDBED1AEB4B070060FA55 /* App Launch */ = {
+			isa = PBXGroup;
+			children = (
+				8881898E1AEA0CA400FC8643 /* AppDelegate.h */,
+				8881898F1AEA0CA400FC8643 /* AppDelegate.m */,
+				8881899C1AEA0CA400FC8643 /* LaunchScreen.xib */,
+			);
+			name = "App Launch";
+			sourceTree = "<group>";
+		};
+		DCBEDBEE1AEB4B2D0060FA55 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				888189911AEA0CA400FC8643 /* MainViewController.h */,
+				888189921AEA0CA400FC8643 /* MainViewController.m */,
+				888189941AEA0CA400FC8643 /* SecondViewController.h */,
+				888189951AEA0CA400FC8643 /* SecondViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DCBEDBEF1AEB4D640060FA55 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				888189B81AEB34F800FC8643 /* LogInViewController.h */,
+				888189B91AEB34F800FC8643 /* LogInViewController.m */,
+			);
+			name = "Log In";
+			sourceTree = "<group>";
+		};
+		DCBEDBF11AEB4E930060FA55 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				888189971AEA0CA400FC8643 /* Main.storyboard */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
