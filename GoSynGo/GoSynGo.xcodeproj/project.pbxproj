@@ -18,6 +18,7 @@
 		888189BA1AEB34F800FC8643 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888189B91AEB34F800FC8643 /* LogInViewController.m */; };
 		DCA4B6B81AEC2E080002F8E1 /* HomeIconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4B6B61AEC2E080002F8E1 /* HomeIconImage.png */; };
 		DCA4B6B91AEC2E080002F8E1 /* HomeIconImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4B6B71AEC2E080002F8E1 /* HomeIconImage@2x.png */; };
+		DCA4B6BC1AEC40060002F8E1 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA4B6BB1AEC40060002F8E1 /* SignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		888189B91AEB34F800FC8643 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		DCA4B6B61AEC2E080002F8E1 /* HomeIconImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HomeIconImage.png; path = Imgaes/HomeIconImage.png; sourceTree = "<group>"; };
 		DCA4B6B71AEC2E080002F8E1 /* HomeIconImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HomeIconImage@2x.png"; path = "Imgaes/HomeIconImage@2x.png"; sourceTree = "<group>"; };
+		DCA4B6BA1AEC40060002F8E1 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		DCA4B6BB1AEC40060002F8E1 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +173,8 @@
 			children = (
 				888189B81AEB34F800FC8643 /* LogInViewController.h */,
 				888189B91AEB34F800FC8643 /* LogInViewController.m */,
+				DCA4B6BA1AEC40060002F8E1 /* SignUpViewController.h */,
+				DCA4B6BB1AEC40060002F8E1 /* SignUpViewController.m */,
 			);
 			name = "Log In";
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			files = (
 				888189961AEA0CA400FC8643 /* SecondViewController.m in Sources */,
 				888189901AEA0CA400FC8643 /* AppDelegate.m in Sources */,
+				DCA4B6BC1AEC40060002F8E1 /* SignUpViewController.m in Sources */,
 				888189BA1AEB34F800FC8643 /* LogInViewController.m in Sources */,
 				888189931AEA0CA400FC8643 /* MainViewController.m in Sources */,
 				8881898D1AEA0CA400FC8643 /* main.m in Sources */,
