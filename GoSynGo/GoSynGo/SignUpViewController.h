@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SignUpViewController : UIViewController
+@interface SignUpViewController : UIViewController <UITextFieldDelegate>
+
+@property (nonatomic) IBOutlet UITextField* emailTextField;
+@property (nonatomic) IBOutlet UITextField* lastNameTextField;
+@property (nonatomic) IBOutlet UITextField* firstNameTextField;
+@property (nonatomic) IBOutlet UITextField* passwordTextField;
+@property (nonatomic) IBOutlet UITextField* confirmPasswordTextField;
 
 - (IBAction)signUp:(id)sender;
 - (IBAction)cancel:(id)sender;

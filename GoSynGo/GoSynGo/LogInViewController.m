@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    _emailTextField.delegate = self;
+    _passwordTextField.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,6 +27,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+// called when 'return' key pressed. return NO to ignore.
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    if(textField == _emailTextField)
+    {
+        // Roll over to password textfield
+        [_passwordTextField becomeFirstResponder];
+    }
+    else if(textField == _passwordTextField)
+    {
+        // dismiss keyboard
+        [_passwordTextField resignFirstResponder];
+    }
+    return NO; // We do not want UITextField to insert line-breaks.
+}
 
 #pragma mark - Navigation
 
@@ -41,6 +59,5 @@
     
     
 }
-
 
 @end

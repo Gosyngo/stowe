@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    _emailTextField.delegate = self;
+    _lastNameTextField.delegate = self;
+    _firstNameTextField.delegate = self;
+    _passwordTextField.delegate = self;
+    _confirmPasswordTextField.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,6 +40,10 @@
 }
 */
 
+/*****************************************
+             Button Listener
+ *****************************************/
+
 - (IBAction)signUp:(id)sender
 {
     [self.presentingViewController dismissViewControllerAnimated:YES completion:^{
@@ -47,6 +57,25 @@
     [self.presentingViewController dismissViewControllerAnimated:YES completion:^{
         
     }];
+}
+
+
+/*****************************************
+           TextField Delegate
+ *****************************************/
+-(BOOL)textFieldShouldReturn:(UITextField*)textField
+{
+    NSInteger nextTag = textField.tag + 1;
+    // Find next responder
+    UIResponder* nextResponder = [textField.superview viewWithTag:nextTag];
+    if (nextResponder) {
+        // Found next responder, roll over to next text field
+        [nextResponder becomeFirstResponder];
+    } else {
+        // Not found, dismiss keyboard.
+        [textField resignFirstResponder];
+    }
+    return NO; // We do not want UITextField to insert line-breaks.
 }
 
 @end

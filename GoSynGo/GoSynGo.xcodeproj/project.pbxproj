@@ -94,6 +94,7 @@
 		888189891AEA0CA400FC8643 /* GoSynGo */ = {
 			isa = PBXGroup;
 			children = (
+				888189971AEA0CA400FC8643 /* Main.storyboard */,
 				DCBEDBED1AEB4B070060FA55 /* App Launch */,
 				DCBEDBEE1AEB4B2D0060FA55 /* Main */,
 				DCBEDBEF1AEB4D640060FA55 /* Log In */,
@@ -183,7 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				DCA4B6B01AEC2B310002F8E1 /* Images */,
-				888189971AEA0CA400FC8643 /* Main.storyboard */,
 			);
 			name = UI;
 			sourceTree = "<group>";
