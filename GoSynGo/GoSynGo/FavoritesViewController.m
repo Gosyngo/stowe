@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  FavoritesViewController.m
 //  GoSynGo
 //
 //  Created by Pengqing Xie on 4/24/15.
 //  Copyright (c) 2015 GoSynGo. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "FavoritesViewController.h"
 
-@interface SecondViewController ()
+@interface FavoritesViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation FavoritesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

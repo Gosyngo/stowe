@@ -1,18 +1,18 @@
 //
-//  MainViewController.m
+//  HomeViewController.m
 //  GoSynGo
 //
 //  Created by Pengqing Xie on 4/24/15.
 //  Copyright (c) 2015 GoSynGo. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "HomeViewController.h"
 
-@interface MainViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -17,7 +17,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self configInitViewController];
+    
+    [self configTabBar];
+    
     return YES;
+}
+
+- (void)configInitViewController{
+    UIStoryboard *storyboard = self.window.rootViewController.storyboard;
+    UIViewController *initViewController = nil;
+    
+    BOOL authenticated = [self checkLoginState];
+    
+    if (!authenticated) {
+        // Jump to the login page
+        initViewController = [storyboard instantiateViewControllerWithIdentifier:@"LogInViewController"];
+    } else {
+        initViewController = [storyboard instantiateInitialViewController];
+    }
+    
+    // Set root view controller and make windows visible
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = initViewController;
+    [self.window makeKeyAndVisible];
+}
+
+// Check if the user is not already signed in
+- (BOOL)checkLoginState {
+    return FALSE;
+}
+
+// Custumize tab bar and tab bar icons
+- (void)configTabBar{
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

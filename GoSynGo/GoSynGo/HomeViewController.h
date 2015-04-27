@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  HomeViewController.m
 //  GoSynGo
 //
 //  Created by Pengqing Xie on 4/24/15.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface HomeViewController : UIViewController
 
-@property NSString *email;
-@property NSString *password;
 
 @end
 

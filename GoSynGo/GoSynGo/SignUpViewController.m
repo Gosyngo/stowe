@@ -43,28 +43,22 @@
 /*****************************************
              Button Listener
  *****************************************/
-
-- (IBAction)signUp:(id)sender
-{
+- (IBAction)signUp:(id)sender {
     [self.presentingViewController dismissViewControllerAnimated:YES completion:^{
         
     }];
 }
 
-
-- (IBAction)cancel:(id)sender
-{
+- (IBAction)cancel:(id)sender {
     [self.presentingViewController dismissViewControllerAnimated:YES completion:^{
         
     }];
 }
-
 
 /*****************************************
            TextField Delegate
  *****************************************/
--(BOOL)textFieldShouldReturn:(UITextField*)textField
-{
+-(BOOL)textFieldShouldReturn:(UITextField*)textField {
     NSInteger nextTag = textField.tag + 1;
     // Find next responder
     UIResponder* nextResponder = [textField.superview viewWithTag:nextTag];

@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		8881898D1AEA0CA400FC8643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8881898C1AEA0CA400FC8643 /* main.m */; };
 		888189901AEA0CA400FC8643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8881898F1AEA0CA400FC8643 /* AppDelegate.m */; };
-		888189931AEA0CA400FC8643 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888189921AEA0CA400FC8643 /* MainViewController.m */; };
-		888189961AEA0CA400FC8643 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888189951AEA0CA400FC8643 /* SecondViewController.m */; };
+		888189931AEA0CA400FC8643 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888189921AEA0CA400FC8643 /* HomeViewController.m */; };
+		888189961AEA0CA400FC8643 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888189951AEA0CA400FC8643 /* FavoritesViewController.m */; };
 		888189991AEA0CA400FC8643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888189971AEA0CA400FC8643 /* Main.storyboard */; };
 		8881899B1AEA0CA400FC8643 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8881899A1AEA0CA400FC8643 /* Images.xcassets */; };
 		8881899E1AEA0CA400FC8643 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8881899C1AEA0CA400FC8643 /* LaunchScreen.xib */; };
@@ -19,6 +19,10 @@
 		DCA4B6B81AEC2E080002F8E1 /* HomeIconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4B6B61AEC2E080002F8E1 /* HomeIconImage.png */; };
 		DCA4B6B91AEC2E080002F8E1 /* HomeIconImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4B6B71AEC2E080002F8E1 /* HomeIconImage@2x.png */; };
 		DCA4B6BC1AEC40060002F8E1 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA4B6BB1AEC40060002F8E1 /* SignUpViewController.m */; };
+		DCB5DE131AEDBC2D009E1C7A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5DE121AEDBC2D009E1C7A /* TabBarController.m */; };
+		DCB5DE161AEE0D20009E1C7A /* RequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5DE151AEE0D20009E1C7A /* RequestsViewController.m */; };
+		DCB5DE191AEE0D36009E1C7A /* RemindersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5DE181AEE0D36009E1C7A /* RemindersViewController.m */; };
+		DCB5DE1C1AEE0D48009E1C7A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5DE1B1AEE0D48009E1C7A /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,10 @@
 		8881898C1AEA0CA400FC8643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8881898E1AEA0CA400FC8643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8881898F1AEA0CA400FC8643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		888189911AEA0CA400FC8643 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		888189921AEA0CA400FC8643 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		888189941AEA0CA400FC8643 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		888189951AEA0CA400FC8643 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		888189911AEA0CA400FC8643 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		888189921AEA0CA400FC8643 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		888189941AEA0CA400FC8643 /* FavoritesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		888189951AEA0CA400FC8643 /* FavoritesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		888189981AEA0CA400FC8643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8881899A1AEA0CA400FC8643 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8881899D1AEA0CA400FC8643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -53,6 +57,14 @@
 		DCA4B6B71AEC2E080002F8E1 /* HomeIconImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HomeIconImage@2x.png"; path = "Imgaes/HomeIconImage@2x.png"; sourceTree = "<group>"; };
 		DCA4B6BA1AEC40060002F8E1 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		DCA4B6BB1AEC40060002F8E1 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		DCB5DE111AEDBC2D009E1C7A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		DCB5DE121AEDBC2D009E1C7A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		DCB5DE141AEE0D20009E1C7A /* RequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestsViewController.h; sourceTree = "<group>"; };
+		DCB5DE151AEE0D20009E1C7A /* RequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestsViewController.m; sourceTree = "<group>"; };
+		DCB5DE171AEE0D36009E1C7A /* RemindersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindersViewController.h; sourceTree = "<group>"; };
+		DCB5DE181AEE0D36009E1C7A /* RemindersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindersViewController.m; sourceTree = "<group>"; };
+		DCB5DE1A1AEE0D48009E1C7A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		DCB5DE1B1AEE0D48009E1C7A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +108,9 @@
 			children = (
 				888189971AEA0CA400FC8643 /* Main.storyboard */,
 				DCBEDBED1AEB4B070060FA55 /* App Launch */,
-				DCBEDBEE1AEB4B2D0060FA55 /* Main */,
 				DCBEDBEF1AEB4D640060FA55 /* Log In */,
+				DCB5DE0D1AEDBA2D009E1C7A /* Tab Bar */,
+				DCBEDBEE1AEB4B2D0060FA55 /* Tab Bar Items */,
 				DCBEDBF11AEB4E930060FA55 /* UI */,
 				8881898A1AEA0CA400FC8643 /* Supporting Files */,
 			);
@@ -148,6 +161,15 @@
 			name = "Tab Bar Items";
 			sourceTree = "<group>";
 		};
+		DCB5DE0D1AEDBA2D009E1C7A /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5DE111AEDBC2D009E1C7A /* TabBarController.h */,
+				DCB5DE121AEDBC2D009E1C7A /* TabBarController.m */,
+			);
+			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
 		DCBEDBED1AEB4B070060FA55 /* App Launch */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,15 +180,21 @@
 			name = "App Launch";
 			sourceTree = "<group>";
 		};
-		DCBEDBEE1AEB4B2D0060FA55 /* Main */ = {
+		DCBEDBEE1AEB4B2D0060FA55 /* Tab Bar Items */ = {
 			isa = PBXGroup;
 			children = (
-				888189911AEA0CA400FC8643 /* MainViewController.h */,
-				888189921AEA0CA400FC8643 /* MainViewController.m */,
-				888189941AEA0CA400FC8643 /* SecondViewController.h */,
-				888189951AEA0CA400FC8643 /* SecondViewController.m */,
+				888189911AEA0CA400FC8643 /* HomeViewController.h */,
+				888189921AEA0CA400FC8643 /* HomeViewController.m */,
+				888189941AEA0CA400FC8643 /* FavoritesViewController.h */,
+				888189951AEA0CA400FC8643 /* FavoritesViewController.m */,
+				DCB5DE141AEE0D20009E1C7A /* RequestsViewController.h */,
+				DCB5DE151AEE0D20009E1C7A /* RequestsViewController.m */,
+				DCB5DE171AEE0D36009E1C7A /* RemindersViewController.h */,
+				DCB5DE181AEE0D36009E1C7A /* RemindersViewController.m */,
+				DCB5DE1A1AEE0D48009E1C7A /* SettingsViewController.h */,
+				DCB5DE1B1AEE0D48009E1C7A /* SettingsViewController.m */,
 			);
-			name = Main;
+			name = "Tab Bar Items";
 			sourceTree = "<group>";
 		};
 		DCBEDBEF1AEB4D640060FA55 /* Log In */ = {
@@ -233,7 +261,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = Pineapple;
+				ORGANIZATIONNAME = Gosyngo;
 				TargetAttributes = {
 					888189861AEA0CA400FC8643 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -290,11 +318,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888189961AEA0CA400FC8643 /* SecondViewController.m in Sources */,
+				DCB5DE131AEDBC2D009E1C7A /* TabBarController.m in Sources */,
+				888189961AEA0CA400FC8643 /* FavoritesViewController.m in Sources */,
 				888189901AEA0CA400FC8643 /* AppDelegate.m in Sources */,
+				DCB5DE191AEE0D36009E1C7A /* RemindersViewController.m in Sources */,
 				DCA4B6BC1AEC40060002F8E1 /* SignUpViewController.m in Sources */,
 				888189BA1AEB34F800FC8643 /* LogInViewController.m in Sources */,
-				888189931AEA0CA400FC8643 /* MainViewController.m in Sources */,
+				888189931AEA0CA400FC8643 /* HomeViewController.m in Sources */,
+				DCB5DE1C1AEE0D48009E1C7A /* SettingsViewController.m in Sources */,
+				DCB5DE161AEE0D20009E1C7A /* RequestsViewController.m in Sources */,
 				8881898D1AEA0CA400FC8643 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

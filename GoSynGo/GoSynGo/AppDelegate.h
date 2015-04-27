@@ -12,6 +12,11 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (void)configInitViewController;
+
+- (void)configTabBar;
+
+- (BOOL)checkLoginState;
 
 @end
 

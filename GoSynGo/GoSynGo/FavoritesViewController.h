@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FavoritesViewController.h
 //  GoSynGo
 //
 //  Created by Pengqing Xie on 4/24/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface FavoritesViewController : UIViewController
 
 @end
 
